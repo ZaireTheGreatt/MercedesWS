@@ -1,638 +1,768 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rufina:400,700"
+      rel="stylesheet"
+    />
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
-        
-        <title>Mercedez Benz</title>
+    <title>Mercedez Benz</title>
 
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png"/>
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  		<link rel="stylesheet" href="assets/css/linearicons.css">
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/linearicons.css" />
 
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
 
-        <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
-    </head>
-	
-	<body>
-<div class="top-search" style="display: none;
-            <div class="container">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                </div>
-            </div>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootsnav.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="top-search" style="display: none">
+      <div class="container">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-search"></i></span>
+          <input type="text" class="form-control" placeholder="Search" />
+          <span class="input-group-addon close-search"
+            ><i class="fa fa-times"></i
+          ></span>
         </div>
-		<section id="home" class="welcome-hero">
+      </div>
+    </div>
 
-			<div class="top-area">
-				<div class="header-area">
+    <section id="home" class="welcome-hero">
+      <div class="top-area">
+        <div class="header-area">
+          <nav
+            class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+            data-minus-value-desktop="70"
+            data-minus-value-mobile="55"
+            data-speed="1000"
+          >
+            <div class="container">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#navbar-menu"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"
+                  >Mercedez-Benz<span></span
+                ></a>
+              </div>
 
-				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+              <div
+                class="collapse navbar-collapse menu-ui-design"
+                id="navbar-menu"
+              >
+                <ul
+                  class="nav navbar-nav navbar-right"
+                  data-in="fadeInDown"
+                  data-out="fadeOutUp"
+                >
+                  <li class="scroll active"><a href="#home">home</a></li>
+                  <li class="scroll"><a href="#service">service</a></li>
+                  <li class="scroll"><a href="#new-cars">new cars</a></li>
+                  <li class="dropdown">
+                    <a
+                      href="#featured-cars"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      >Featured Cars</a
+                    >
+                    <ul
+                      class="dropdown-menu animated fadeOutUp"
+                      style="display: none; opacity: 1"
+                    >
+                      <li><a href="#">AMG</a></li>
+                      <li><a href="#">Maybach</a></li>
+                      <li><a href="#">G-Wagon</a></li>
+                      <li><a href="#">S-Class</a></li>
+                      <li><a href="#">A-Class</a></li>
+                    </ul>
+                  </li>
+                  <li class="scroll"><a href="#brand">brands</a></li>
+                  <li class="scroll"><a href="#contact">contact</a></li>
+                  <li class="search">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+          <video autoplay muted plays-inline class="background-clip">
+            <source src="assets/images/video.mp4" type="video/mp4"
+          </video>
+        </div>
+        <div class="clearfix"></div>
+      </div>
 
-				        <div class="container">
+      <div class="container">
+        <div class="welcome-hero-txt">
+          <h2>The reason why we always go the extra mile.</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button class="welcome-btn" onclick="window.location.href='#'">
+            contact us
+          </button>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="model-search-content">
+              <div class="row">
+                <div class="container">
+                  <h1
+                    id="about-us-title"
+                    class="about-me-title"
+                    style="text-align: center; margin-bottom: 20px"
+                  >
+                    About Us
+                  </h1>
+                  <div class="col-md-12" style="margin-top: 5px">
+                    <p
+                      class="about-me-paragraph"
+                      style="
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #666;
+                        line-height: 1.5;
+                      "
+                    >
+                      A global automobile brand that combines luxury,
+                      innovation, and to provide an unparalleled driving
+                      experience and To provide customers with the best possible
+                      driving experience, combining comfort, style, and
+                      performance, while driving innovation and sustainability
+                      in the automotive industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-				                    <i class="fa fa-bars"></i>
-				                </button>
-				                <a class="navbar-brand" href="index.html">Mercedez-Benz<span></span></a>
-				                
+    <section
+      id="service"
+      class="service"
+      style="background-color: #f7f7f7; padding: 50px 0"
+    >
+      <div class="container">
+        <div class="service-content">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item" style="margin-bottom: 30px">
+                <div
+                  class="single-service-icon"
+                  style="
+                    background-color: #333;
+                    color: #fff;
+                    padding: 20px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <i class="flaticon-car" style="font-size: 36px"></i>
+                </div>
+                <h2 style="font-weight: 600; margin-bottom: 10px">
+                  <a href="#" style="color: #333; text-decoration: none"
+                    >largest dealership <span> of</span> car</a
+                  >
+                </h2>
+                <p style="font-size: 16px; color: #000000; line-height: 1.5">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut den fugit sed quia.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item" style="margin-bottom: 30px">
+                <div
+                  class="single-service-icon"
+                  style="
+                    background-color: #333;
+                    color: #fff;
+                    padding: 20px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <i class="flaticon-car-repair" style="font-size: 36px"></i>
+                </div>
+                <h2 style="font-weight: 600; margin-bottom: 10px">
+                  <a href="#" style="color: #333; text-decoration: none"
+                    >unlimited repair warrenty</a
+                  >
+                </h2>
+                <p style="font-size: 16px; color: #000000; line-height: 1.5">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut den fugit sed quia.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item" style="margin-bottom: 30px">
+                <div
+                  class="single-service-icon"
+                  style="
+                    background-color: #333;
+                    color: #fff;
+                    padding: 20px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <i class="flaticon-car-1" style="font-size: 36px"></i>
+                </div>
+                <h2 style="font-weight: 600; margin-bottom: 10px">
+                  <a href="#" style="color: #333; text-decoration: none"
+                    >insurence support</a
+                  >
+                </h2>
+                <p style="font-size: 16px; color: #000000; line-height: 1.5">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut den fugit sed quia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				            </div>
+    <section id="new-cars" class="new-cars">
+      <div class="container">
+        <div class="section-header">
+          <p>checkout <span>the</span> latest cars</p>
+          <h2>newest cars</h2>
+        </div>
+        <div class="new-cars-content">
+          <div class="owl-carousel owl-theme" id="new-cars-carousel">
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="assets/images/new-cars-model/ncm1.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2>
+                        <a href="#">Mercedes Benz AMG<span> A 45 s</span></a>
+                      </h2>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                      <p class="new-cars-para2">
+                        Sed ut pers unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                      </p>
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='#'"
+                      >
+                        view details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="assets/images/new-cars-model/ncm2.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2>
+                        <a href="#">Mercedes Benz <span>CLE Cabriolet</span></a>
+                      </h2>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                      <p class="new-cars-para2">
+                        Sed ut pers unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                      </p>
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='#'"
+                      >
+                        view details
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="assets/images/new-cars-model/ncm3.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2><a href="#">Mercedes Benz G Class</a></h2>
+                      <p>
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </p>
+                      <p class="new-cars-para2">
+                        Sed ut pers unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                      </p>
 
-	
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='#'"
+                      >
+                        view details
+                      </button>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="#service">service</a></li>
-				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
-				               		<li class="dropdown">
-				               			<a href="#featured-cars" class="dropdown-toggle" data-toggle="dropdown">Featured Cars</a>
-                        <ul class="dropdown-menu animated fadeOutUp" style="display: none; opacity: 1;">
-                            <li><a href="#">AMG</a></li>
-                            <li><a href="#">Maybach</a></li>
-                            <li><a href="#">G-Wagon</a></li>
-                            <li><a href="#">S-Class</a></li>
-                             <li><a href="#">A-Class</a></li>
-                                 </ul>
-				                    <li class="scroll"><a href="#brand">brands</a></li>
-				                    <li class="scroll"><a href="#contact">contact</a></li>
-        							<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-				                    </li>
-				            
-				            </div>
-				        </div>
-				    </nav>
+    <!--featured-cars start -->
+    <section id="featured-cars" class="featured-cars">
+      <div class="container">
+        <div class="section-header">
+          <p>checkout <span>the</span> featured cars</p>
+          <h2>featured cars</h2>
+        </div>
+        <!--/.section-header-->
+        <div class="featured-cars-content">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc1.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2023
+                      <span class="featured-mi-span"> 15.04 kmpl</span>
+                      <span class="featured-hp-span"> 375 bhp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz CLA </a></h2>
+                  <h3>₱5.719 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc2.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 8.1 kmpl</span>
+                      <span class="featured-hp-span"> 387.3 bhp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz SL Class<span>wmv20</span></a>
+                  </h2>
+                  <h3>Price on Request</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc3.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 628 km</span>
+                      <span class="featured-hp-span"> 292 bhp</span>
+                      electric Automation
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz <span>EQE SUV</span></a>
+                  </h2>
+                  <h3>₱7.19 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc4.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 495 km</span>
+                      <span class="featured-hp-span"> 190 hp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz EQA </a></h2>
+                  <h3>₱3.99 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc5.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 422 km</span>
+                      <span class="featured-hp-span"> 190 hp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz EQB</a></h2>
+                  <h3>₱4.19 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc6.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 160 km</span>
+                      <span class="featured-hp-span"> 163 hp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz A-Class</a></h2>
+                  <h3>₱5.19 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc7.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 727 Km</span>
+                      <span class="featured-hp-span"> 550 hp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz Maybach GLS</a></h2>
+                  <h3>Price On Request</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img src="assets/images/featured-cars/fc8.png" alt="cars" />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2024
+                      <span class="featured-mi-span"> 738 Km</span>
+                      <span class="featured-hp-span"> 163 hp</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes-Benz GLB-Class</a></h2>
+                  <h3>₱4.59 Million</h3>
+                  <p>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				</div>
-				<div class="container">
-					<video autoplay muted plays-inline class="background-clip">
-						<source src="assets/images/video.mp4" type="video/mp4"
-					</video>
+    <section id="brand" class="brand">
+      <div class="container">
+        <div class="brand-area">
+          <div class="owl-carousel owl-theme brand-item">
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br1.png" alt="brand-image" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br2.png" alt="brand-image" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br3.png" alt="brand-image" />
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br4.png" alt="brand-image" />
+              </a>
+            </div>
 
-				</div>
-			    <div class="clearfix"></div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br5.png" alt="brand-image" />
+              </a>
+            </div>
 
-			</div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/brand/br6.png" alt="brand-image" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="blog" class="blog"></section>
 
-	
+    <footer id="contact" class="contact">
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="single-footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html">Mercedez-Benz</a>
+                </div>
+                <p>
+                  Ased do eiusm tempor incidi ut labore et dolore magnaian
+                  aliqua. Ut enim ad minim veniam.
+                </p>
+                <div class="footer-contact">
+                  <p>mercedesbenzManda@gmail.com</p>
+                  <p>+63 (123) 45678901</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <div class="single-footer-widget">
+                <h2>about Us</h2>
+                <ul>
+                  <li><a href="#about-us-title">About Us</a></li>
+                  <li><a href="#">career</a></li>
+                  <li>
+                    <a href="#">terms <span> of service</span></a>
+                  </li>
+                  <li><a href="#">privacy policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <div class="single-footer-widget">
+                <h2>Exclusives</h2>
+                <div class="row">
+                  <div class="col-md-7 col-xs-6">
+                    <ul>
+                      <li><a href="#">G-Class Private Suite</a></li>
+                      <li><a href="#">Mercedez-Benz Magazine</a></li>
+                      <li><a href="#">Mercedez-Benz Brand Club</a></li>
+                      <li><a href="#">Mercedez-Benz Classic Magazine</a></li>
+                      <li><a href="#">Mercedez-Benz Private Lounge</a></li>
+                      <li><a href="#">Baby-Benz</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-3 col-sm-6">
+              <div class="single-footer-widget">
+                <h2>news letter</h2>
+                <div class="footer-newsletter">
+                  <p>Subscribe to get latest news update and informations</p>
+                </div>
+                <div class="hm-foot-email">
+                  <div class="foot-email-box">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Add Email"
+                    />
+                  </div>
+                  <div class="foot-email-subscribe">
+                    <span><i class="fa fa-arrow-right"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>&copy; Pleasure to have bussiness with you.</p>
+            </div>
+            <div class="col-sm-6">
+              <div class="footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i
+            class="fa fa-angle-up"
+            id="scroll-top"
+            data-toggle="tooltip"
+            data-placement="top"
+            title=""
+            data-original-title="Back to Top"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+    </footer>
 
+    <script src="assets/js/jquery.js"></script>
 
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>The reason why we always go the extra mile.</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. 
-					</p>
-					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
-				</div>
-			</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-			<div class="container">
-				<div class="row">
-				  <div class="col-md-12">
-					<div class="model-search-content">
-					  <div class="row">
-						<div class="container">
-						   <h1 id="about-us-title" class="about-me-title" style="text-align: center; margin-bottom: 20px;">About Us</h1>
-						  <div class="col-md-12" style="margin-top: 5px;">
-							<p class="about-me-paragraph" style="font-size: 18px; font-weight: 300; color: #666; line-height: 1.5;">
-							  A global automobile brand that combines luxury, innovation, and to provide an unparalleled driving experience and To provide customers with the best possible driving experience, combining comfort, style, and performance, while driving innovation and sustainability in the automotive industry.
-							</p>
-						  </div>
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-			  </div>
+    <script src="assets/js/bootstrap.min.js"></script>
 
-		</section>
+    <script src="assets/js/bootsnav.js"></script>
 
-		<section id="service" class="service" style="background-color: #f7f7f7; padding: 50px 0;">
-			<div class="container">
-				<div class="service-content">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item" style="margin-bottom: 30px;">
-								<div class="single-service-icon" style="background-color: #333; color: #fff; padding: 20px; border-radius: 50%; margin-bottom: 20px;">
-									<i class="flaticon-car" style="font-size: 36px;"></i>
-								</div>
-								<h2 style="font-weight: 600; margin-bottom: 10px;"><a href="#" style="color: #333; text-decoration: none;">largest dealership <span> of</span> car</a></h2>
-								<p style="font-size: 16px; color: #000000; line-height: 1.5;">
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item" style="margin-bottom: 30px;">
-								<div class="single-service-icon" style="background-color: #333; color: #fff; padding: 20px; border-radius: 50%; margin-bottom: 20px;">
-									<i class="flaticon-car-repair" style="font-size: 36px;"></i>
-								</div>
-								<h2 style="font-weight: 600; margin-bottom: 10px;"><a href="#" style="color: #333; text-decoration: none;">unlimited repair warrenty</a></h2>
-								<p style="font-size: 16px; color: #000000; line-height: 1.5;">
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item" style="margin-bottom: 30px;">
-								<div class="single-service-icon" style="background-color: #333; color: #fff; padding: 20px; border-radius: 50%; margin-bottom: 20px;">
-									<i class="flaticon-car-1" style="font-size: 36px;"></i>
-								</div>
-								<h2 style="font-weight: 600; margin-bottom: 10px;"><a href="#" style="color: #333; text-decoration: none;">insurence support</a></h2>
-								<p style="font-size: 16px; color: #000000; line-height: 1.5;">
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <script src="assets/js/owl.carousel.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
-		<section id="new-cars" class="new-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> latest cars</p>
-					<h2>newest cars</h2>
-				</div>
-				<div class="new-cars-content">
-					<div class="owl-carousel owl-theme" id="new-cars-carousel">
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm1.png" alt="img"/>
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">Mercedes Benz AMG<span> A 45 s</span></a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm2.png" alt="img"/>
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">Mercedes Benz</a><span> CLE Cabriolet</span></a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm3.png" alt="img"/>
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-
-											<h2><a href="#">Mercedes Benz G Class</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-											<div></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section>
-		
-		<!--featured-cars start -->
-		<section id="featured-cars" class="featured-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> featured cars</p>
-					<h2>featured cars</h2>
-				</div><!--/.section-header-->
-				<div class="featured-cars-content">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc1.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2023
-											<span class="featured-mi-span"> 15.04 kmpl</span> 
-											<span class="featured-hp-span"> 375 bhp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-
-									<h2><a href="#">Mercedes-Benz CLA </a></h2>
-									<h3>₱5.719 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc2.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 8.1 kmpl</span> 
-											<span class="featured-hp-span"> 387.3 bhp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz SL Class<span>wmv20</span></a></h2>
-									<h3>Price on Request</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc3.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 628 km</span> 
-											<span class="featured-hp-span"> 292 bhp</span>
-											electric Automation									
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz <span>EQE SUV</span></a></h2>
-									<h3>₱7.19 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc4.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 495 km</span> 
-											<span class="featured-hp-span"> 190 hp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz EQA</h2>
-									<h3>₱3.99 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc5.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 422 km</span> 
-											<span class="featured-hp-span"> 190 hp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz EQB</h2>
-									<h3>₱4.19 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc6.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 160 km</span> 
-											<span class="featured-hp-span"> 163 hp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz A-Class </h2>
-									<h3>₱5.19 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc7.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 727 Km</span> 
-											<span class="featured-hp-span"> 550 hp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#"><span>Mercedes-Benz Maybach GLS</h2>
-									<h3>Price On Request</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc8.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2024
-											<span class="featured-mi-span"> 738 Km</span> 
-											<span class="featured-hp-span"> 163 hp</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">Mercedes-Benz GLB-Class</h2>
-									<h3>₱4.59 Million</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		<section id="brand"  class="brand">
-			<div class="container">
-				<div class="brand-area">
-					<div class="owl-carousel owl-theme brand-item">
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br1.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br2.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br3.png" alt="brand-image" />
-							</a>
-						</div>
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br4.png" alt="brand-image" />
-							</a>
-						</div>
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br5.png" alt="brand-image" />
-							</a>
-						</div>
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br6.png" alt="brand-image" />
-							</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</section>
-	
-
-	
-		<section id="blog" class="blog"></section>
-	
-		<footer id="contact"  class="contact">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<div class="footer-logo">
-									<a href="index.html">Mercedez-Benz</a>
-								</div>
-								<p>
-									Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
-								</p>
-								<div class="footer-contact">
-									<p>mercedesbenzManda@gmail.com</p>
-									<p>+63 (123) 45678901</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>about Us</h2>
-								<ul>
-									<li><a href="#about-us-title">About Us</a></li>
-									<li><a href="#">career</a></li>
-									<li><a href="#">terms <span> of service</span></a></li>
-									<li><a href="#">privacy policy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-12">
-							<div class="single-footer-widget">
-								<h2>Exclusives</h2>
-								<div class="row">
-									<div class="col-md-7 col-xs-6">
-										<ul>
-											<li><a href="#">G-Class Private Suite</a></li>
-											<li><a href="#">Mercedez-Benz Magazine</a></li>
-											<li><a href="#">Mercedez-Benz Brand Club</a></li>
-											<li><a href="#">Mercedez-Benz Classic Magazine</a></li>
-											<li><a href="#">Mercedez-Benz Private Lounge</a></li>
-											<li><a href="#">Baby-Benz</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>news letter</h2>
-								<div class="footer-newsletter">
-									<p>
-										Subscribe to get latest news  update and informations
-									</p>
-								</div>
-								<div class="hm-foot-email">
-									<div class="foot-email-box">
-										<input type="text" class="form-control" placeholder="Add Email">
-									</div>
-									<div class="foot-email-subscribe">
-										<span><i class="fa fa-arrow-right"></i></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="row">
-						<div class="col-sm-6">
-							<p>
-								&copy; Pleasure to have bussiness with you.
-							</p>
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-pinterest-p"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>	
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div>
-				
-			</div>
-			
-        </footer>
-
-
-
-		
-		<script src="assets/js/jquery.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-        <script src="assets/js/bootstrap.min.js"></script>
-
-		<script src="assets/js/bootsnav.js"></script>
-
-        <script src="assets/js/owl.carousel.min.js"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
